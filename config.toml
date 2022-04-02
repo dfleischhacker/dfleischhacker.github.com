@@ -15,6 +15,9 @@ language = "en"
 theme = "vncnt-hugo"
 title = "Daniel Fleischhacker"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [permalinks]
   fixed = ":title/"
   posts = "posts/:slug/"
@@ -23,11 +26,12 @@ title = "Daniel Fleischhacker"
   author = "Daniel Fleischhacker"
   email = ""
   description = "Landing Page"
-  bio = "Engineering Manager | Software Engineer<br>PhD in Computer Science"
+  bio = "Engineering Manager | Software Engineer<br>[PhD in Computer Science](https://dblp.uni-trier.de/pid/53/7737.html)"
   avatar = "img/avatar.jpg"
   favicon = "img/favicon.ico"
   error404 = "There is no such page."
 
   [params.contact]
     github = "https://github.com/dfleischhacker"
+    bitbucket = "https://bitbucket.org/dfleischhacker/"
     linkedIn = "https://www.linkedin.com/in/daniel-fleischhacker-0972b911"
